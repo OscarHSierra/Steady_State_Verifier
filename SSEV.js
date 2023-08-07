@@ -116,7 +116,7 @@ function ayuda()
         {
           kp=(z11*z22*z33*z44*k.value)/(p11*p22*p33*p44);
           error=1/(1+kp)
-          r.innerHTML="Error en estado estacionario="+error.toFixed(4);
+          r.innerHTML="Kp="+kp.toFixed(4)+" Error en estado estacionario="+error.toFixed(4);
         }
 
         if(n.value==1)
@@ -145,8 +145,8 @@ function ayuda()
         {
           kp=(z11*z22*z33*z44*k.value)/(p11*p22*p33*p44);
           error=1/(kp)      
-          r.innerHTML="Error en estado estacionario="+error.toFixed(4);   
-        }
+          r.innerHTML="Kv="+kp.toFixed(4)+" Error en estado estacionario="+error.toFixed(4);   
+        } 
 
         if(n.value==2)
         {
@@ -174,7 +174,7 @@ function ayuda()
         {
           kp=(z11*z22*z33*z44*k.value)/(p11*p22*p33*p44);
           error=1/(kp)      
-          r.innerHTML="Error en estado estacionario="+error.toFixed(4);   
+          r.innerHTML="Kp="+kp.toFixed(4)+" Error en estado estacionario="+error.toFixed(4);   
         }
      }
       
